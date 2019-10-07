@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: gitlab
+  repo: owner-name/repo-name # Path to your GitLab repository
+  auth_type: implicit # Required for implicit grant
+  app_id: d9aec22ac585dee59634ec1d453e29632658788b2471ae068b189af48a79f6a3 # Application ID from your GitLab settings
   branch: master
 media_folder: static/images
 public_folder: /images
